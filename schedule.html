@@ -1,0 +1,284 @@
+<!DOCTYPE html>
+<html lang="ar" dir="rtl">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=1200, initial-scale=1">
+  <title>جداول الحضانة</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body class="intro-open">
+  <div id="intro" class="intro">
+    <img class="intro-logo" data-logo src="logo.png" alt="شعار الحضانة">
+    <p id="introText" class="intro-text">KG schedules</p>
+    <div class="intro-dots" aria-hidden="true"><span></span><span></span><span></span></div>
+  </div>
+
+  <div class="stickers" aria-hidden="true">
+    <span>🎈</span><span>🌈</span><span>⭐</span><span>🦄</span><span>🚌</span><span>🧸</span>
+    <span>🎨</span><span>✏️</span><span>🐥</span><span>🦋</span><span>☁️</span><span>🍎</span>
+    <span>👧</span><span>👦</span><span>🧒</span><span>👶</span>
+  </div>
+
+  <main dir="rtl" lang="ar">
+    <header>
+      <h1>جداول الحضانة</h1>
+      <div class="kids" aria-hidden="true">
+        <span>👧</span><span>🧒</span><span>🎈</span><span>👦</span><span>🧸</span><span>👧</span>
+      </div>
+    </header>
+
+    <!-- الشاشة الرئيسية: اختيار الجدول -->
+    <section id="home" class="home" data-title="جداول الحضانة">
+      <a class="menu-card card-kg" href="#kg">
+        <span class="menu-emoji">🎒</span>
+        <strong>Class B KG</strong>
+        <small>التمهيدي</small>
+      </a>
+      <a class="menu-card card-tasees" href="#tasees">
+        <span class="menu-emoji">🧸</span>
+        <strong>Class A KG</strong>
+        <small>التأسيس</small>
+      </a>
+    </section>
+
+    <!-- جدول KG -->
+    <section id="view-kg" class="schedule-view" data-title="البرنامج اليومي (Class B KG)" hidden>
+      <nav class="view-nav"><a class="back-btn" href="#home">🏠 الرئيسية</a></nav>
+      <table>
+            <thead>
+              <tr>
+                <th scope="col">اليوم / الساعة</th>
+                <th scope="col">8:15 - 8:30</th>
+                <th scope="col">8:30 - 9</th>
+                <th scope="col">9 - 9:30</th>
+                <th scope="col">9:30 - 10</th>
+                <th scope="col">10 - 11</th>
+                <th scope="col">11 - 12:30</th>
+                <th scope="col">12:30 - 1</th>
+              </tr>
+            </thead>
+            <tbody>
+              <tr>
+                <th scope="row">السبت</th>
+                <td>فقرة رياضية</td>
+                <td>إفطار</td>
+                <td>أسماء الله الحسنى + أذكار الصباح + آداب وسلوكيات +  قرآن</td>
+                <td>فسحة</td>
+                <td>عربي</td>
+                <td>رسم + تلوين</td>
+                <td>انتظار باص</td>
+              </tr>
+              <tr>
+                <th scope="row">الأحد</th>
+                <td>فقرة رياضية</td>
+                <td>إفطار</td>
+                <td>أسماء الله الحسنى + أذكار الصباح + آداب وسلوكيات + قرآن تسميع</td>
+                <td>فسحة</td>
+                <td>حساب</td>
+                <td>تنمية مهارات</td>
+                <td>انتظار باص</td>
+              </tr>
+              <tr>
+                <th scope="row">الاثنين</th>
+                <td>فقرة رياضية</td>
+                <td>إفطار</td>
+                <td>أسماء الله الحسنى + أذكار الصباح + آداب وسلوكيات + قرآن</td>
+                <td>فسحة</td>
+                <td>انجليزي</td>
+                <td>داتا شو</td>
+                <td>انتظار باص</td>
+              </tr>
+              <tr>
+                <th scope="row">الثلاثاء</th>
+                <td>فقرة رياضية</td>
+                <td>إفطار</td>
+                <td>أسماء الله الحسنى + أذكار الصباح + آداب وسلوكيات + قرآن</td>
+                <td>فسحة</td>
+                <td>عربي</td>
+                <td>تنمية مهارات</td>
+                <td>انتظار باص</td>
+              </tr>
+              <tr>
+                <th scope="row">الأربعاء</th>
+                <td>فقرة رياضية</td>
+                <td>إفطار</td>
+                <td>أسماء الله الحسنى + أذكار الصباح + آداب وسلوكيات + قرآن تسميع</td>
+                <td>فسحة</td>
+                <td>MATH</td>
+                <td>صلصال</td>
+                <td>انتظار باص</td>
+              </tr>
+              <tr>
+                <th scope="row">الخميس</th>
+                <td>فقرة رياضية</td>
+                <td>إفطار</td>
+                <td>أسماء الله الحسنى + أذكار الصباح + آداب وسلوكيات + قرآن</td>
+                <td>فسحة</td>
+                <td>حساب</td>
+                <td>نشاط</td>
+                <td>انتظار باص</td>
+              </tr>
+            </tbody>
+          </table>
+    </section>
+
+    <!-- جدول تأسيس (عدّل الخلايا "—" ببياناتك) -->
+    <section id="view-tasees" class="schedule-view" data-title="البرنامج اليومي (Class A KG)" hidden>
+      <nav class="view-nav"><a class="back-btn" href="#home">🏠 الرئيسية</a></nav>
+      <table>
+            <thead>
+              <tr>
+                <th scope="col">اليوم / الساعة</th>
+                <th scope="col">8:15 - 8:30</th>
+                <th scope="col">8:30 - 9</th>
+                <th scope="col">9 - 9:30</th>
+                <th scope="col">9:30 - 10</th>
+                <th scope="col">10 - 11</th>
+                <th scope="col">11 - 12:30</th>
+                <th scope="col">12:30 - 1</th>
+              </tr>
+            </thead>
+            <tbody>
+              <tr>
+                <th scope="row">السبت</th>
+                <td>فقرة رياضية</td>
+                <td>إفطار</td>
+                <td>أسماء الله الحسنى + أذكار الصباح + آداب وسلوكيات +  قرآن</td>
+                <td>فسحة</td>
+                <td>عربي</td>
+                <td>رسم + تلوين</td>
+                <td>انتظار باص</td>
+              </tr>
+              <tr>
+                <th scope="row">الأحد</th>
+                <td>فقرة رياضية</td>
+                <td>إفطار</td>
+                <td>أسماء الله الحسنى + أذكار الصباح + آداب وسلوكيات + قرآن تسميع</td>
+                <td>فسحة</td>
+                <td>حساب</td>
+                <td>تنمية مهارات</td>
+                <td>انتظار باص</td>
+              </tr>
+              <tr>
+                <th scope="row">الاثنين</th>
+                <td>فقرة رياضية</td>
+                <td>إفطار</td>
+                <td>أسماء الله الحسنى + أذكار الصباح + آداب وسلوكيات + قرآن</td>
+                <td>فسحة</td>
+                <td>انجليزي</td>
+                <td>داتا شو</td>
+                <td>انتظار باص</td>
+              </tr>
+              <tr>
+                <th scope="row">الثلاثاء</th>
+                <td>فقرة رياضية</td>
+                <td>إفطار</td>
+                <td>أسماء الله الحسنى + أذكار الصباح + آداب وسلوكيات + قرآن</td>
+                <td>فسحة</td>
+                <td>عربي</td>
+                <td>تنمية مهارات</td>
+                <td>انتظار باص</td>
+              </tr>
+              <tr>
+                <th scope="row">الأربعاء</th>
+                <td>فقرة رياضية</td>
+                <td>إفطار</td>
+                <td>أسماء الله الحسنى + أذكار الصباح + آداب وسلوكيات + قرآن تسميع</td>
+                <td>فسحة</td>
+                <td>MATH</td>
+                <td>صلصال</td>
+                <td>انتظار باص</td>
+              </tr>
+              <tr>
+                <th scope="row">الخميس</th>
+                <td>فقرة رياضية</td>
+                <td>إفطار</td>
+                <td>أسماء الله الحسنى + أذكار الصباح + آداب وسلوكيات + قرآن</td>
+                <td>فسحة</td>
+                <td>الماني</td>
+                <td>نشاط</td>
+                <td>انتظار باص</td>
+              </tr>
+            </tbody>
+          </table>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <svg class="svg-sprite" aria-hidden="true" focusable="false">
+      <symbol id="icon-whatsapp" viewBox="0 0 24 24">
+        <path fill="currentColor" d="M17.472 14.382c-.297-.149-1.758-.867-2.03-.967-.273-.099-.471-.148-.67.15-.197.297-.767.966-.94 1.164-.173.199-.347.223-.644.075-.297-.15-1.255-.463-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.298-.347.446-.52.149-.174.198-.298.298-.497.099-.198.05-.371-.025-.52-.075-.149-.669-1.612-.916-2.207-.242-.579-.487-.5-.669-.51-.173-.008-.371-.01-.57-.01-.198 0-.52.074-.792.372-.272.297-1.04 1.016-1.04 2.479 0 1.462 1.065 2.875 1.213 3.074.149.198 2.096 3.2 5.077 4.487.709.306 1.262.489 1.694.625.712.227 1.36.195 1.871.118.571-.085 1.758-.719 2.006-1.413.248-.694.248-1.289.173-1.413-.074-.124-.272-.198-.57-.347m-5.421 7.403h-.004a9.87 9.87 0 01-5.031-1.378l-.361-.214-3.741.982.998-3.648-.235-.374a9.86 9.86 0 01-1.51-5.26c.001-5.45 4.436-9.884 9.888-9.884 2.64 0 5.122 1.03 6.988 2.898a9.825 9.825 0 012.893 6.994c-.003 5.45-4.437 9.884-9.885 9.884m8.413-18.297A11.815 11.815 0 0012.05 0C5.495 0 .16 5.335.157 11.892c0 2.096.547 4.142 1.588 5.945L.057 24l6.305-1.654a11.882 11.882 0 005.683 1.448h.005c6.554 0 11.89-5.335 11.893-11.893a11.821 11.821 0 00-3.48-8.413z"/>
+      </symbol>
+      <symbol id="icon-instagram" viewBox="0 0 24 24">
+        <g fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+          <rect x="2" y="2" width="20" height="20" rx="5" ry="5"/>
+          <path d="M16 11.37A4 4 0 1 1 12.63 8 4 4 0 0 1 16 11.37z"/>
+          <line x1="17.5" y1="6.5" x2="17.51" y2="6.5"/>
+        </g>
+      </symbol>
+    </svg>
+
+    <!-- تواصل مع الحضانة -->
+    <div class="contact">
+      <img class="footer-logo" data-logo src="logo.png" alt="شعار الحضانة">
+      <h2>تواصل معنا</h2>
+      <p class="contact-lead">لو حابب تحجز لطفلك، أو عندك استفسار أو مشكلة، كلّمنا وهنرد عليك في أقرب وقت</p>
+      <ul class="contact-reasons">
+        <li>
+          <a class="reason" href="https://wa.me/201013839155" target="_blank" rel="noopener">
+            <span class="reason-emoji">📝</span>
+            <strong>حجز طالب جديد</strong>
+            <small>سجّل طفلك معنا</small>
+          </a>
+        </li>
+        <li>
+          <a class="reason" href="https://wa.me/201013839155" target="_blank" rel="noopener">
+            <span class="reason-emoji">⚠️</span>
+            <strong>مشكلة أو شكوى</strong>
+            <small>هنحلها في أسرع وقت</small>
+          </a>
+        </li>
+        <li>
+          <a class="reason" href="https://wa.me/201013839155" target="_blank" rel="noopener">
+            <span class="reason-emoji">❓</span>
+            <strong>استفسار عام</strong>
+            <small>اسأل عن أي حاجة</small>
+          </a>
+        </li>
+        <li>
+          <a class="reason" href="https://wa.me/201013839155" target="_blank" rel="noopener">
+            <span class="reason-emoji">💡</span>
+            <strong>اقتراح</strong>
+            <small>رأيك يهمنا</small>
+          </a>
+        </li>
+      </ul>
+      <div class="contact-actions">
+        <a class="btn-wa" href="https://wa.me/201013839155" target="_blank" rel="noopener">
+          <svg class="icon" aria-hidden="true"><use href="#icon-whatsapp"/></svg>
+          تواصل عبر واتساب
+        </a>
+        <a class="btn-call" href="tel:+201013839155">📞 اتصال</a>
+      </div>
+    </div>
+
+    <!-- المطور -->
+    <div class="dev-footer">
+      <p class="dev">DEVELOPED BY <strong>HAMZA</strong></p>
+      <ul class="dev-links">
+        <li>
+          <a class="icon-btn wa" href="https://wa.me/201066350362" target="_blank" rel="noopener" aria-label="واتساب المطور">
+            <svg class="icon" aria-hidden="true"><use href="#icon-whatsapp"/></svg>
+          </a>
+        </li>
+        <li>
+          <a class="icon-btn ig" href="https://instagram.com/q_7vmza" target="_blank" rel="noopener" aria-label="انستجرام المطور">
+            <svg class="icon" aria-hidden="true"><use href="#icon-instagram"/></svg>
+          </a>
+        </li>
+      </ul>
+    </div>
+  </footer>
+  <script src="script.js" defer></script>
+</body>
+</html>
